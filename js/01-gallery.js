@@ -37,13 +37,3 @@ function openImageInLightbox(event) {
     )
     .show();
 }
-
-//nu functioneaza
-document.addEventListener("keydown", function (event) {
-  if (event.key === "Escape") {
-    const lightbox = basicLightbox.visibleInstance;
-    if (lightbox) {
-      lightbox.close();
-    }
-  }
-});
